@@ -14,7 +14,7 @@
             Console.WriteLine($"Radius : {radius}");
             Circle circle = new Circle(radius);
 
-            circle.Calculate();
+            
             circle.Dispaly();
         }
     }

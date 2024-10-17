@@ -3,12 +3,24 @@ namespace Assignment8
 {
     internal class Bank
     {
-        private string AccointNumber;
-        private double Balance;
+        private string accointNumber;
+        private double balance;
         public Bank()
         {
             AccointNumber = "123456";
             Balance = 0;
+        }
+        public string AccointNumber
+        {
+            get { return accointNumber; }
+            set { accointNumber = value; }
+            
+        }
+
+        public double Balance
+        {
+            get { return balance; }
+            set {  balance = value; }
         }
 
         public void Deposit(double amount)

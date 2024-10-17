@@ -2,14 +2,26 @@
 {
     internal class Person
     {
-        private string Name;
-        private int Age;
+        private string name ;
+        private int age;
 
         public Person(int age , string name)
         {
             Name = name;
             Age = age;
         }
+        public string Name
+        {
+            get { return name; }
+            set { name = value; }
+        }
+        public int Age
+        {
+            get { return age; }
+            set {  age = value; }
+        }
+            
+        
 
 
         public void Display()

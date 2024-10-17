@@ -4,17 +4,16 @@ namespace Assignment4
     internal class Circle
     {
         private double Radius;
-        private double Area;
+        private double area;
 
         public Circle(double radius)
         {
             Radius = radius;
         }
-
-        public double Calculate()
+        
+        public double Area
         {
-            Area = Radius * Radius * Math.PI;
-            return Area;
+            get { return Math.PI * Radius * Radius; }
         }
         public void Dispaly()
         {
